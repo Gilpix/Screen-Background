@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1DAEEC" >
+    
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/image21" />
+ 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/might"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+            <Button
+                android:id="@+id/camera"
+                style="@style/setwallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/roundcornerblue_button"
+                android:clickable="true"
+                android:gravity="center"
+                android:layout_weight="1"
+                 android:color="#66FF0000"   
+			android:alpha="0.75"
+                android:lines="1"
+                android:minLines="2"
+                android:text="CAMERA"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/setimage"
+                style="@style/setwallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                 android:layout_marginRight="4dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/roundcornerblue_button"
+                android:clickable="true"
+                 android:layout_weight=".67"
+                android:gravity="center"
+                 android:color="#66FF0000"   
+			android:alpha="0.75"
+                android:lines="1"
+                android:minLines="2"
+                android:text="SET BACKGROUND"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+ 
+</RelativeLayout>
