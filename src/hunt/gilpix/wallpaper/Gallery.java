@@ -61,7 +61,7 @@ import android.widget.Toast;
 		                        Intent intent = new Intent();
 		                        intent.setType("image/*");
 		                        intent.setAction(Intent.ACTION_GET_CONTENT);
-		                     // ******** code for crop image
+		                     //  code for crop image
 		                        intent.putExtra("crop", "true");
 		                        intent.putExtra("aspectX", 3);
 		                        intent.putExtra("aspectY", 4);
